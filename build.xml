@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Programmation Concurrente Java" default="init">
+
+  <target name="init">
+    <mkdir dir="bin"/>
+    <!--<mkdir dir="jar"/>-->
+  </target>
+  
+  <target name="compile" depends="init" description="Compile Source Code">
+    <javac srcdir="src" destdir="bin"/>
+  </target>
+  
+  <!--<target name="package" depends="compile" description="Generate jar file">
+    <jar destfile="jar/test.jar" basedir="bin"/>
+  </target>-->
+
+</project>
